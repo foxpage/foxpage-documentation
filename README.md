@@ -9,7 +9,7 @@ foxpage 文档项目
 Git clone
 
 ```bash
-$ git clone git@git.dev.sh.ctripcorp.com:fox-open/foxpage-documentation.git
+$ git clone https://github.com/foxpage/foxpage-documentation.git
 ```
 
 Install dependencies,
