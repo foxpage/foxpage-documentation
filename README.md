@@ -2,7 +2,7 @@
 
 foxpage 文档项目
 
-在线地址：https://pages.ares.ctripcorp.com/foxpage/docs/
+在线地址：http://www.foxpage.io/
 
 ## Getting Started
 
