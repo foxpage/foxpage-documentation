@@ -1,11 +1,13 @@
 import { defineConfig } from 'dumi';
 
+const PATH = '/dist';
+
 export default defineConfig({
   hash: true,
   title: 'Foxpage',
   mode: 'site',
-  favicon: '/favicon.ico',
-  logo: '/logo-s.png',
+  favicon: `${PATH}/favicon.ico`,
+  logo: `${PATH}/logo-s.png`,
   navs: {
     'zh-CN': [
       null,
@@ -26,8 +28,8 @@ export default defineConfig({
     type: 'hash',
   },
   base: '/',
-  // publicPath: '/dist/',
-  publicPath: '/foxpage/docs/',
+  publicPath: `${PATH}/`,
+  // publicPath: '/foxpage/docs/',
   // exportStatic: { htmlSuffix: true }
   styles: [
     `
