@@ -16,9 +16,9 @@ toc: menu
 应用特点:
 
 - 应用是一个典型的 MPA（Multi-page applicaiton），多入口
-- 有 SEO 诉求，所以需要支持 SSR（Server side render）
-- 页面繁多，结构各异。需要一定的自由度和定制能力
-- 由于业务的特性决定，页面内容的变更，发布都很频繁
+- 多种渲染模式支持 SSR，CSR，SSG
+- 页面繁多，功能各异。项目会变的越来越大
+- 由于业务的特性决定，页面内容的变更，发布会很频繁
 
 接入 Foxpage 后:
 
@@ -31,7 +31,7 @@ toc: menu
 Trip.com Eventsale 系统
 
 简介：Eventsale 系统是 Trip.com 的活动配置系统，包含活动的基础信息，促销信息，玩法信息，活动页信息等配置<br>
-地址：https://www.trip.com/sales/<br>
+地址：内部系统<br>
 现状：截至 2021 年中为止，大约有 3000+的活动页面通过活动配置系统制作完成，同时在线的页面有 1000+，平均每天有 100+的页面在不间断的更新
 
 ## SEO 页面
@@ -43,7 +43,6 @@ Trip.com Eventsale 系统
 应用特点:
 
 - 需要支持 SSR（Server side render）
-- 页面繁多，但结构相似。大部分是内容展示
 
 接入 Foxpage 后:
 
@@ -55,7 +54,7 @@ Trip.com Eventsale 系统
 
 Trip.com SEO 管理平台
 
-简介：SEO 管理平台管理着 Trip.com Hot 频道的内容，包括关键词管理，页面 TDK 信息，结构信息，内容等。<br>
+简介：SEO 管理平台管理着 Trip.com Hot 频道的页面内容，包括关键词管理，页面 TDK 信息，结构信息，内容等。<br>
 地址：内部系统<br>
 现状：截至 2021 年中为止，SEO 平台目前由 Foxpage 框架生成的页面大概有 100w+的页面，页面部分的主要模块都是通过算法动态生成的
 

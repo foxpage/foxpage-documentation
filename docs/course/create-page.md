@@ -140,11 +140,17 @@ toc: menu
       <img src="../../public/admin/project/variable_use.png" alt="image" style="width: 800px;box-shadow: 1px 1px 10px #ddd;"/>
     </div>
   </html>
+
+使用变量可以点击 “{}” 按钮进入变量使用界面
+
   <html>
     <div style="text-align: center; ">
       <img src="../../public/admin/project/variable_use1.png" alt="image" style="width: 800px;box-shadow: 1px 1px 10px #ddd;"/>
     </div>
   </html>
+
+变量的使用界面的左侧为可用变量的列表，选中变量即可在内容区域的光标位置生成变量的模版语法
+
   <html>
     <div style="text-align: center; ">
       <img src="../../public/admin/project/variable_use2.png" alt="image" style="width: 800px;box-shadow: 1px 1px 10px #ddd;"/>
@@ -194,6 +200,8 @@ toc: menu
     <img src="../../public/admin/project/function_use1.png" alt="image" style="width: 800px;box-shadow: 1px 1px 10px #ddd;"/>
   </div>
 </html>
+
+可用函数的列表，展示 Project 层级和 Applicaiton 层级的函数，直接选择所需函数点击 “Apply” 即可
 
 <html>
   <div style="text-align: center; ">

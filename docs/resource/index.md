@@ -1,6 +1,7 @@
 ---
 title: 资源
 order: 1
+toc: false
 nav:
   title: 资源
   order: 8

@@ -1,9 +1,11 @@
 ---
-title: 移动端
-order: 3
+title: （草稿）Foxpage 在移动端探索
+order: 102
+hide: true
+toc: content
 group:
-  title: 实验室
-  order: 3
+  title: 博客
+  order: 2
 ---
 
 ## 移动端方向

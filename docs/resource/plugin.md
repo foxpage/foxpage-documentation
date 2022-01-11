@@ -1,11 +1,18 @@
 ---
 title: 插件
 order: 3
+toc: menu
+group:
+  title: 插件
+  order: 1
+nav:
+  title: 资源
+  order: 8
 ---
 
-## 插件
+## 框架插件
 
-以下是`Foxpage`的所有插件。更多插件持续扩展中。
+以下是`Foxpage`提供的所有插件。更多插件持续扩展中。
 
 | 名称                                                                                | 标识                    | 描述                                           |
 | ----------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------- |
@@ -117,7 +124,7 @@ $ yarn add @foxpage/foxpage-plugin-styled-component
 }
 ```
 
-### `foxpage-server-provider-aws-s3` <Badge>Node Service</Badge>
+### `foxpage-server-provider-aws-s3` <Badge>Server</Badge>
 
 提供服务端与 AWS S3 之间数据处理，包括获取对象列表，上传，下载等
 
