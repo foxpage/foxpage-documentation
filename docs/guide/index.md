@@ -39,8 +39,8 @@ Foxpage 平台由多个项目构成, 快速开始部分主要是安装 `Foxpage 
 
 ### 环境准备
 
-- nodejs 12.0+
-- mongodb 4.0+
+- nodejs 14.15.1+
+- mongodb 5.0+
 
 ### 项目安装
 

@@ -1,5 +1,5 @@
 ---
-title: Foxpage 在Node端的落地实践
+title: Foxpage 在Node应用中的落地实践
 order: 8
 toc: content
 group:
@@ -10,7 +10,7 @@ nav:
   order: 10
 ---
 
-# Foxpage 在 Node 端的落地实践
+# Foxpage 在 Node 应用中的落地实践
 
 ## 一、前言
 

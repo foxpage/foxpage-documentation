@@ -12,8 +12,8 @@ group:
 
 ### 环境准备
 
-nodejs 12.0+：需要提前安装 node，12 版本以上。  
-mongodb 4.0+：需要提前安装 mongodb，4 版本以上。
+nodejs 14.15.1+：需要提前安装 node，14.15.x 版本以上。  
+mongodb 5.0+：需要提前安装 mongodb，5.0 版本以上。
 
 ### 安装工具
 
