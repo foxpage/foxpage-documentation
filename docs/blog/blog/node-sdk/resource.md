@@ -9,6 +9,8 @@ group:
 
 # Foxpage Node SDK 资源管理
 
+<p>作者：肖达荣（Darong Xiao），Trip.com 前端开发工程师</p>
+
 ## 一、前言
 
 资源是每个系统或平台非常重要的一部分，合理正确的管理亦是非常重要。

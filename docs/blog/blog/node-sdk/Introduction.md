@@ -13,6 +13,8 @@ nav:
 
 # Foxpage Node SDK 初识篇
 
+<p>作者：肖达荣（Darong Xiao），Trip.com 前端开发工程师</p>
+
 ## 一、前言
 
 `Foxpage Node SDK`（以下简称：SDK） 是 `Foxpage` 框架的核心部分，是提供给 node 端应用使用的开发工具包。开发者通过使用 SDK 能够快速地接入和使用 `Foxpage` 框架。

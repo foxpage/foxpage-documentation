@@ -12,6 +12,8 @@ nav:
 
 # Foxpage 在 Node 应用中的落地实践
 
+<p>作者：肖达荣（Darong Xiao），Trip.com 前端开发工程师</p>
+
 ## 一、前言
 
 Foxpage 是一个前端低代码（Low-Code）框架，从组件化，到页面在线可视化搭建，再到页面渲染等提供了一套完整通用的解决方案。  
