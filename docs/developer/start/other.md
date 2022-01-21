@@ -1,5 +1,6 @@
 ---
 title: 升级 & 迁移
+hide: true
 order: 3
 group:
   title: 安装部署

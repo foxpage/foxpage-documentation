@@ -12,8 +12,9 @@ group:
 
 ### 环境准备
 
-nodejs 14.15.1+：需要提前安装 node，14.15.x 版本以上。  
-mongodb 5.0+：需要提前安装 mongodb，5.0 版本以上。
+nodejs >= 14.15.1 <= 16.0：需要提前安装 node，14.15.x 版本以上, 16.0 以下的版本。  
+mongodb 5.0.2+：需要提前安装 mongodb，5.0.2 版本以上。
+Mongoose 5.12.14+：需要提前安装 mongoose，5.12.14 版本以上。
 
 ### 安装工具
 
@@ -69,19 +70,22 @@ $ foxpage-server install
 $ cd foxpage/foxpage-server/config/environments
 ```
 
-- 找到公共配置文件`development.ts`，按需要修改相应的配置，如下：
+- 找到公共配置文件`development.ts`，按需要修改相应的[配置](/developer/integration/server-apis)，如下：
   <div style="text-align: center;">
     <img width="800" src="../../../public/deploy/server-config.jpg"/>
   </div>
 
-数据库`mongodb`必需配置好，才能让 server 顺利启动。
+数据库`mongodb`必需配置好，才能让 server 顺利启动。由于使用了事务，mongodb 需要启动至少 2 个节点
 
 - 本地启动
 
-```sh
-$ npm run start
-# or
-$ yarn start
+```shell
+$ yarn boot
+
+$ npm run start-server:prod
+
+// 初始化数据
+$ npm run init-server:prod
 ```
 
 #### 步骤 2：配置 foxpage admin

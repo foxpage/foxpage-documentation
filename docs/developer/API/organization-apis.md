@@ -355,6 +355,7 @@ GET /team-searchs?organizationId=orga_j9l4qJI9hAXWTer&search=&page=1&size=10
 - 说明
   - data - `object` - 团队详情, 详见[`TeamDetail`](#teamdetail)
 
+<!--
 ## 用户
 
 ---
@@ -434,4 +435,4 @@ GET /team-searchs?organizationId=orga_j9l4qJI9hAXWTer&search=&page=1&size=10
 - 说明
   - id - `string` - 用户 ID
   - account - `string` - 用户名
-  - email - `string` - 用户邮箱
+  - email - `string` - 用户邮箱 -->
