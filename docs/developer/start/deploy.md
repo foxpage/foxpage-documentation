@@ -13,10 +13,12 @@ group:
 ### Foxpage server
 
 1. 配置
-   同[本地配置](/developer/start/install#步骤-1配置-foxpage-server)类似，只需配置上服务器上部署的参数即可。
 
-2) 编译
-   可在本地编译或服务器上编译，推荐在本地编译。编译命令如下：
+同[本地配置](/developer/start/install#步骤-1配置-foxpage-server)类似，只需配置上服务器上部署的参数即可。
+
+2. 编译
+
+可在本地编译或服务器上编译，推荐在本地编译。编译命令如下：
 
 ```sh
 $ npm run build:prod
@@ -37,7 +39,8 @@ $ yarn build:prod
 ```
 
 3. 启动服务
-   服务启动，即运行编译后的产物。
+
+服务启动，即运行编译后的产物。
 
 ```sh
 # 直接node启动服务
@@ -56,10 +59,12 @@ $ npm run install-server
 ### Foxpage admin
 
 1. 配置
-   同[本地配置](/developer/start/install#步骤-2配置-foxpage-admin)类似，只需配置上服务器上部署的参数即可。
+
+同[本地配置](/developer/start/install#步骤-2配置-foxpage-admin)类似，只需配置上服务器上部署的参数即可。
 
 2. 编译
-   可在本地编译或服务器上编译，推荐在本地编译。编译命令如下：
+
+可在本地编译或服务器上编译，推荐在本地编译。编译命令如下：
 
 ```sh
 $ npm run build
@@ -89,10 +94,12 @@ $ node server/app-express.js
 ### Foxpage app server
 
 1. 配置
-   同[本地配置](/developer/start/install#步骤-3配置-foxpage-app-server)类似，只需配置上服务器上部署的参数即可。
+
+同[本地配置](/developer/start/install#步骤-3配置-foxpage-app-server)类似，只需配置上服务器上部署的参数即可。
 
 2. 编译
-   可在本地编译或服务器上编译，推荐在本地编译。编译命令如下
+
+可在本地编译或服务器上编译，推荐在本地编译。编译命令如下
 
 ```sh
 $ npm run build
