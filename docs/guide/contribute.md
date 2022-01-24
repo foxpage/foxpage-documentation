@@ -18,7 +18,7 @@ toc: menu
 
 ## Bugs
 
-如果你发现了 bug 可以在现在 [FAQ](/guide/faq) 中查看是否已经有同类问题相关说明，确认没有后可在 [Gighub issues](https://github.com/tripcorptech/foxpage-admin/issues) 上报告
+如果你发现了 bug 可以在现在 [FAQ](/guide/faq) 中查看是否已经有同类问题相关说明，确认没有后可在 [Gighub issues](https://github.com/foxpage/foxpage/issues) 上报告
 
 ## 开发流程
 
@@ -36,7 +36,7 @@ toc: menu
 
 作为贡献者你需要了解下大致的流程
 
-1. 克隆需要贡献的项目【[项目代码仓库](https://github.com/tripcorptech?q=foxpage&type=&language=typescript&sort=name)】
+1. 克隆需要贡献的项目【[项目代码仓库](https://github.com/foxpage)】
 
 2. 从你想贡献的分支上创建新的分支，通常是 Main
 

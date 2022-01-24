@@ -75,9 +75,9 @@ $ foxpage-server install
 
 ## 开源和贡献
 
-Foxpage 是一个开源项目（见 [LICENSE](https://www.trip.com) 文件以获取更多信息），我们非常欢迎个人或团队参与 Foxpage 开源事业，贡献每一份力量，共同见证其成长。
+Foxpage 是一个开源项目（见 [LICENSE](https://github.com/foxpage/foxpage/blob/master/LICENSE) 文件以获取更多信息），我们非常欢迎个人或团队参与 Foxpage 开源事业，贡献每一份力量，共同见证其成长。
 
-以下是存储在 [GitHub](https://www.trip.com)上的开源项目列表：
+以下是存储在 [GitHub](https://github.com/foxpage)上的开源项目列表：
 
 - foxpage/foxpage-admin
 - foxpage/foxpage-server

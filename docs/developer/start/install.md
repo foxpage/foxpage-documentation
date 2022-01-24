@@ -70,7 +70,7 @@ $ foxpage-server install
 $ cd foxpage/foxpage-server/config/environments
 ```
 
-- 找到公共配置文件`development.ts`，按需要修改相应的[配置](/developer/integration/server-apis)，如下：
+- 找到公共配置文件`development.ts`，按需要修改相应的[配置](/developer/integration/server-apis)，样例如下：
   <div style="text-align: center;">
     <img width="800" src="../../../public/deploy/server-config.jpg"/>
   </div>
@@ -88,6 +88,8 @@ $ npm run start-server:prod
 $ npm run init-server:prod
 ```
 
+此时，本地 Server 服务已启动成功，可通过 http://127.0.0.1:50000/ （端口可自定义） 来访问，下面两个项目中会使用到。
+
 #### 步骤 2：配置 foxpage admin
 
 - 进入 Foxpage admin 项目下：
@@ -96,7 +98,7 @@ $ npm run init-server:prod
 $ cd foxpage/foxpage-admin
 ```
 
-- 找到公共配置文件`config.profile.js`，按需要修改相应配置，如下：
+- 找到公共配置文件`config.profile.js`，按需要修改相应配置，样例如下：
   <div style="text-align: center;">
     <img width="800" src="../../../public/deploy/admin-config.jpg"/>
   </div>
@@ -111,7 +113,13 @@ $ npm run start
 $ yarn start
 ```
 
+此时，本地 Admin portal 已启动成功，可通过 http://127.0.0.1:3002/ 来访问。
+
+> 本地端口可在`/foxpage-admin/webpack/webpack.dev.server.js`下自行设置，生产端口默认 80，在`/foxpage-admin/server/app-express.js`设置
+
 #### 步骤 3：配置 foxpage app server
+
+> 说明：foxpage app server 是框架提供的 Node 端前端应用的 demo（模板）项目，可在此基础上进行二次开发和安装。
 
 - 进入 Foxpage app server 项目下：
 
@@ -119,12 +127,12 @@ $ yarn start
 $ cd foxpage/foxpage-app-server
 ```
 
-- 找到公共配置文件`foxpage.config.js`，按需要修改相应配置，如下：
+- 找到公共配置文件`foxpage.config.js`，按需要修改相应配置，样例如下：
   <div style="text-align: center;">
     <img width="800" src="../../../public/deploy/app-server-config.jpg"/>
   </div>
 
-本地配置`apps[idx].appId`（应用 id）和`dataServer.host`（foxpage server 访问地址）即可。其他更多配置请看：[配置](/developer/integration/node-sdk#配置)。
+本地配置`apps[idx].appId`（应用 id）和`dataServer.host`（foxpage server 访问地址）即可。其他更多配置详情请看：[配置](/developer/integration/node-sdk#配置)。
 
 - 本地启动
 
