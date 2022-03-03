@@ -56,6 +56,9 @@ $ foxpage-server install
       └─foxpage-server              // foxpage api server project
 ```
 
+下载依赖包：
+根据 CLI 提示，下载所有项目各种依赖包。
+
 至此，项目本地基本安装就完成了。但需要能在本地启动项目需要经过以下配置。
 
 ### 项目配置&启动
@@ -67,25 +70,32 @@ $ foxpage-server install
 - 进入 Foxpage server 项目下：
 
 ```sh
-$ cd foxpage/foxpage-server/config/environments
+$ cd foxpage/foxpage-server
 ```
 
-- 找到公共配置文件`development.ts`，按需要修改相应的[配置](/developer/integration/server-apis)，样例如下：
+- 在目录`/config/environments`下找到公共配置文件`development.ts`，按需要修改相应的[配置](/developer/integration/server-apis)，样例如下：
   <div style="text-align: center;">
     <img width="800" src="../../../public/deploy/server-config.jpg"/>
   </div>
 
 数据库`mongodb`必需配置好，才能让 server 顺利启动。由于使用了事务，mongodb 需要启动至少 2 个节点
 
+- 下载依赖
+  如果在创建目录阶段已经下载好了依赖，这一步可以省略。如果为下载则需先下载依赖
+
+```shell
+$ yarn
+# or
+$ npm install
+```
+
 - 本地启动
 
 ```shell
-$ yarn boot
+$ npm run start
 
-$ npm run start-server:prod
-
-// 初始化数据
-$ npm run init-server:prod
+// 初始化数据，需要先配置Mongoose环境，配置文档参考官方
+$ npm run install-server
 ```
 
 此时，本地 Server 服务已启动成功，可通过 http://127.0.0.1:50000/ （端口可自定义） 来访问，下面两个项目中会使用到。
@@ -104,6 +114,15 @@ $ cd foxpage/foxpage-admin
   </div>
 
 本地配置`dev.foxpageApi`（foxpage server 的访问地址）即可。
+
+- 下载依赖
+  如果在创建目录阶段已经下载好了依赖，这一步可以省略。如果为下载则需先下载依赖
+
+```shell
+$ yarn
+# or
+$ npm install
+```
 
 - 本地启动
 
@@ -133,6 +152,15 @@ $ cd foxpage/foxpage-app-server
   </div>
 
 本地配置`apps[idx].appId`（应用 id）和`dataServer.host`（foxpage server 访问地址）即可。其他更多配置详情请看：[配置](/developer/integration/node-sdk#配置)。
+
+- 下载依赖
+  如果在创建目录阶段已经下载好了依赖，这一步可以省略。如果为下载则需先下载依赖
+
+```shell
+$ yarn
+# or
+$ npm install
+```
 
 - 本地启动
 

@@ -31,7 +31,10 @@ app.get('/', (req, res) => {
 });
 
 // static file serve
-app.use('/dist', express.static(path.join(__dirname, '../dist')));
+app.use(
+  '/dist',
+  express.static(path.join(__dirname, '../dist'), { maxAge: 86400000 }),
+);
 
 // start up
 app.listen(port);

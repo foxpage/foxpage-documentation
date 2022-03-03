@@ -18,7 +18,7 @@ toc: menu
 
 ## Bugs
 
-如果你发现了 bug 可以在现在 [FAQ](/guide/faq) 中查看是否已经有同类问题相关说明，确认没有后可在 [Gighub issues](https://github.com/foxpage/foxpage/issues) 上报告
+如果你发现了 bug 可以在现在 [FAQ](/guide/faq) 中查看是否已经有同类问题相关说明，确认没有后可在 [Github issues](https://github.com/foxpage/foxpage/issues) 上报告
 
 ## 开发流程
 

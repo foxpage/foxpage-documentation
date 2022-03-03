@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const PATH = '/dist';
+const PATH = '/foxpage/docs';
 
 export default defineConfig({
   hash: true,
@@ -51,6 +51,9 @@ export default defineConfig({
     border-radius: 50%;
     margin-right: 6px;
   }
+  // .markdown img {
+  //   box-shadow: 1px 1px 8px #ddd;
+  // }
   `,
   ],
 });
